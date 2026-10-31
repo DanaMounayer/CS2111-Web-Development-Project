@@ -9,8 +9,6 @@ Built by **Dana Al Mounayer** and **Judy Al-Imam**
 
 On The Go helps people in Jeddah find drive-thru spots, compare ratings, see full menus with prices in SAR, and read reviews before they head out.
 
-> The original 2024 site (built with Bootstrap, PHP and SQL) was lost. This repository rebuilds it from screenshots and screen recordings. It keeps all of the original content and adds a redesigned interface and new features.
-
 ## Features
 
 | Page | What you can do |

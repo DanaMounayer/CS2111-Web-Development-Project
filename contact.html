@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact · On The Go</title>
+    <meta name="description" content="Contact On The Go." />
+    <meta name="theme-color" content="#1c1a6b" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23f29a2e'/%3E%3Cpath d='M8 22h16v-6l-2.5-6h-11L8 16z' fill='none' stroke='%231c1a6b' stroke-width='2.4' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css?v=20261031" />
+  </head>
+  <body data-page="contact">
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-row">
+        <a class="brand" href="index.html"><span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17h14v-5l-2-5H7l-2 5z"/><path d="M5 12h14"/><circle cx="8" cy="17" r="1.6"/><circle cx="16" cy="17" r="1.6"/></svg></span>On The Go</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav class="nav" id="nav" aria-label="Main"><ul><li><a href="index.html" data-page="home">Home</a></li><li><a href="drive-thrus.html" data-page="drive-thrus">Drive-thrus</a></li><li><a href="reviews.html" data-page="reviews">Reviews</a></li><li><a href="about.html" data-page="about">About</a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul></nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>Contact us</h1>
+          <p>We're always here to give you the best service. Suggest a drive-thru, report a menu change or just say hello.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap contact-grid">
+          <div>
+            <div class="info-card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg></span><div><h3>Email address</h3><a href="mailto:OntheGo@gmail.com">OntheGo@gmail.com</a></div></div>
+            <div class="info-card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div><h3>Where we cover</h3><p>Drive-thrus across Jeddah, Saudi Arabia</p></div></div>
+            <div class="info-card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></span><div><h3>Suggest a spot</h3><p>Know a drive-thru we're missing? Send it with the form.</p></div></div>
+          </div>
+          <form class="form-card" id="contact-form" novalidate>
+            <h2>Send us a message</h2>
+            <p>We'll open your email app with the message ready to send.</p>
+            <div class="form-row"><label for="c-name">Your name</label><input class="field" id="c-name" autocomplete="name" /><span class="error" id="c-name-err"></span></div>
+            <div class="form-row"><label for="c-email">Your email</label><input class="field" id="c-email" type="email" autocomplete="email" /><span class="error" id="c-email-err"></span></div>
+            <div class="form-row"><label for="c-subject">Subject</label><input class="field" id="c-subject" /><span class="error" id="c-subject-err"></span></div>
+            <div class="form-row"><label for="c-message">Your message</label><textarea class="field" id="c-message"></textarea><span class="error" id="c-message-err"></span></div>
+            <button class="btn btn-primary" type="submit" style="width:100%">Send message</button>
+            <p class="notice" id="contact-ok" hidden>Your email app should open with the message ready. If it doesn't, write to OntheGo@gmail.com.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="brand" href="index.html"><span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17h14v-5l-2-5H7l-2 5z"/><path d="M5 12h14"/><circle cx="8" cy="17" r="1.6"/><circle cx="16" cy="17" r="1.6"/></svg></span>On The Go</a>
+            <p>Jeddah's drive-thru guide: menus, prices and honest reviews for your next drive.</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="drive-thrus.html?category=fast-food">Fast food</a></li>
+              <li><a href="drive-thrus.html?category=drinks-desserts">Drinks &amp; desserts</a></li>
+              <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Connect with On The Go</h4>
+            <ul>
+              <li><a href="mailto:OntheGo@gmail.com">OntheGo@gmail.com</a></li>
+              <li><a href="contact.html">Send us a message</a></li>
+              <li><a href="about.html">About the project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="year">2026</span> On The Go. CS2111 Web Development project, Effat University.</span>
+          <span>Built by Dana Al Mounayer &amp; Judy Al-Imam</span>
+        </div>
+      </div>
+    </footer>
+    <script src="js/data.js?v=20261031"></script>
+    <script src="js/app.js?v=20261031"></script>
+  </body>
+</html>

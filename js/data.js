@@ -1,6 +1,5 @@
 /*
   On The Go · all site content.
-  Ratings and menus come from the original 2024 site.
   A menu item can have: name, desc, price (SAR), isNew.
 */
 
@@ -106,7 +105,7 @@ window.SPECIALTIES = [
   { name: "Sign Gathering Box", place: "Sign Burger", image: "images/specialties/sign-gathering-box.webp" }
 ];
 
-/* Reviews from the original site. Visitors' own reviews are saved in their browser. */
+/* Reviews. Visitors' own reviews are saved in their browser. */
 window.REVIEWS = [
   { name: "Dana Mounayer", restaurant: "sign-burger", stars: 5, text: "The burgers at Sign Burger are simply amazing! I keep coming back for more!" },
   { name: "Tala Zoabi", restaurant: "al-baik", stars: 5, text: "Albaik's chicken meal is the best I've ever had! Worth every SAR!" },

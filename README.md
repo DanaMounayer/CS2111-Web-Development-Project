@@ -33,7 +33,7 @@ On The Go helps people in Jeddah find drive-thru spots, compare ratings, see ful
 
 ## How it's built
 
-- Plain **HTML, CSS and JavaScript**, with no frameworks and no build step
+- **HTML, CSS, JavaScript and PHP**
 - All content (restaurants, menus, specialties, reviews) lives in [`js/data.js`](js/data.js), so updating the guide means editing one file
 - Favourites and new reviews are stored with `localStorage`
 - Responsive down to small phones, keyboard accessible, and respects reduced-motion settings

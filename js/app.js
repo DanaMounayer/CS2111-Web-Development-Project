@@ -31,7 +31,6 @@
   });
   var page = document.body.dataset.page;
   $$(".nav a").forEach(function (a) { if (a.dataset.page === page) a.setAttribute("aria-current", "page"); });
-  var y = $("#year"); if (y) y.textContent = new Date().getFullYear();
 
   /* ---------- Favorites ---------- */
   var favs = store.get("otg-favs", []);
